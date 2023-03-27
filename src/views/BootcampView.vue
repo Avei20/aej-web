@@ -1,6 +1,7 @@
 <template>
     <Navbar/>
-    <h5>Halo</h5>
+    <h5>aoeuao</h5>
+    <InputText/>
 </template>
 
 <script setup>
