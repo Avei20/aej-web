@@ -1,16 +1,16 @@
 <template>
     <section class="relative bg-gray-900 min-h-screen">
         <Navbar/>
-        <div class="flex flex-row w-full">
-            <div class="flex flex-col w-1/2 h-screen pb-24 pl-16 justify-center">
+        <div class="flex flex-row w-full max-sm:flex-col max-sm:items-center">
+            <div class="flex flex-col w-1/2 h-screen pb-24 pl-16 justify-center max-sm:w-11/12 max-sm:pl-0">
                 <div class="flex flex-col sm:flex-col sm:justify-center sm:space-y-0">
                     <p class="text-green-700 mb-2">Android Enthusiast Jakarta</p>
                     <h1 class="text-white text-3xl font-bold pb-4">Bootcamp Android Architecture</h1>
-                    <p class="text-base text-white font-thin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vel exercitationem eos qui veniam illum perspiciatis, sapiente inventore, aspernatur natus quae laborum voluptatum accusantium id illo nesciunt reprehenderit mollitia. Fugit?</p>
+                    <p class="text-base text-white font-thin max-sm:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vel exercitationem eos qui veniam illum perspiciatis, sapiente inventore, aspernatur natus quae laborum voluptatum accusantium id illo nesciunt reprehenderit mollitia. Fugit?</p>
                 </div>
             
-                <div class=" mt-0 lg:mt-12 mb-8 lg:mb-24 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-                <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 focus:ring-gray-100">
+                <div class="mt-0 lg:mt-12 mb-8 lg:mb-24 space-y-4 sm:flex-row sm:justify-center">
+                <a href="#" class="inline-flex mr-3 justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 focus:ring-gray-100">
                     Enroll Now
                     <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </a>
