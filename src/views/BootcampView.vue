@@ -328,6 +328,44 @@
         </div>
     </section>
 
+
+    <!-- Section 9 -->
+    <section class="my-10">
+        <h5 class="text-3xl text-center mb-5">Related programs</h5>
+        <div class="p-6 bg-gray-200 mx-4 flex flex-col mt-16">
+            <span class="rounded-xl bg-lime-400 px-4 py-1 text-sm w-fit">Nanodegree</span>
+            <div class="flex flex-row">
+                <div class="w-2/3 mt-5 flex flex-col">
+                    <span class="text-2xl font-bold">Ini Title</span>
+                    <span class="mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae ipsa aliquid, perspiciatis dolor labore aspernatur eaque nihil maiores vitae odio quos aliquam dolores unde libero assumenda fugiat atque illum a!</span>
+                    <span class="font-bold mt-5">Advance</span>
+                </div>
+                <div class="w-1/3 flex justify-end flex-wrap">
+                    <a href="#" class="flex flex-row items-center w-fit h-fit  py-3 px-5 text-base font-medium text-center text-black rounded-lg border border-black focus:ring-4 focus:ring-gray-100">
+                            Learn More
+                            <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="p-6 bg-gray-200 mx-4 flex flex-col mt-5">
+            <span class="rounded-xl bg-lime-400 px-4 py-1 text-sm w-fit">Nanodegree</span>
+            <div class="flex flex-row">
+                <div class="w-2/3 mt-5 flex flex-col">
+                    <span class="text-2xl font-bold">Ini Title</span>
+                    <span class="mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae ipsa aliquid, perspiciatis dolor labore aspernatur eaque nihil maiores vitae odio quos aliquam dolores unde libero assumenda fugiat atque illum a!</span>
+                    <span class="font-bold mt-5">Advance</span>
+                </div>
+                <div class="w-1/3 flex justify-end flex-wrap">
+                    <a href="#" class="flex flex-row items-center w-fit h-fit  py-3 px-5 text-base font-medium text-center text-black rounded-lg border border-black focus:ring-4 focus:ring-gray-100">
+                            Learn More
+                            <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Section 10 -->
     <section class="flex flex-col mx-5">
         <h1 class="text-3xl ">Program details</h1>
