@@ -133,6 +133,60 @@
         </div>
     </section>
     
+    <!-- Section 4 -->
+    <section class="w-full py-16 sm:px-5 flex flex-col bg-gray-900">
+        <div class="w-full px-3 pb-5">
+            <h5 class="text-3xl font-semibold text-white text-left">All our programs include:</h5>
+
+        </div>
+        <div class="flex flex-col md:flex-row px-3 justify-items-start">
+            <div class="text-white flex flex-row md:flex-col pb-10 mx-4">
+                <span class="mr-7 mb-5">
+                    <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                </span>
+                <div class="flex flex-col">
+                    <span class="font-bold text-lg pb-5">Real-world projects from industry experts</span>
+                    <span class="text-sm mt-3">
+                        With real-world projects and immersive content built in partnership with top-tier companies, you’ll master the tech skills companies want. 
+                    </span>
+                </div>
+            </div>
+            <div class="text-white flex flex-row md:flex-col pb-10 mx-4">
+                <span class="mr-7 mb-5">
+                    <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                </span>
+                <div class="flex flex-col">
+                    <span class="font-bold text-lg pb-5">Career services</span>
+                    <span class="text-sm mt-3">
+                        You’ll have access to Github portfolio review and LinkedIn profile optimization to help you advance your career and land a high-paying role.
+                    </span>
+                </div>
+            </div>
+            <div class="text-white flex flex-row md:flex-col pb-10 mx-4">
+                <span class="mr-7 mb-5">
+                    <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                </span>
+                <div class="flex flex-col">
+                    <span class="font-bold text-lg pb-5">Career services</span>
+                    <span class="text-sm mt-3">
+                        You’ll have access to Github portfolio review and LinkedIn profile optimization to help you advance your career and land a high-paying role.
+                    </span>
+                </div>
+            </div>
+            <div class="text-white flex flex-row md:flex-col pb-10 mx-4">
+                <div class="mr-7 mb-5">
+                    <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-bold text-lg pb-5">Flexible learning program</span>
+                    <span class="text-sm mt-3">
+                        Tailor a learning plan that fits your busy life. Learn at your own pace and reach your personal goals on the schedule that works best for you.    
+                    </span>
+                </div>
+            </div>
+           
+        </div>
+    </section>
 </template>
 
 <script setup>
