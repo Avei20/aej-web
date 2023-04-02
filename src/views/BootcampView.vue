@@ -276,8 +276,8 @@
             <div>
                 <h1 class="text-4xl font-medium">Learn with the best.</h1>
             </div>
-            <div class="flex flex-row w-full justify-evenly mt-16 max-lg:flex-col">
-                <div class="flex flex-col w-1/4 max-lg:w-full  p-8 py-20 bg-green-200 text-black rounded-tr-[70px]">
+            <div class="flex flex-row w-full justify-evenly bg-red-500 mt-16 max-lg:flex-col">
+                <div class="flex flex-col w-1/4 max-lg:w-full px-8 py-20 bg-green-200 text-black rounded-tr-[70px]">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-12 fill-green-700" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32C93.5 32 46.3 45.3 18.1 56.1C6.8 60.5 0 71.7 0 83.8V454.1c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6c11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6c-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg>
                     </div>
@@ -286,7 +286,7 @@
                         <p class="mt-6 text-sm">David Silver leads the Udacity Curriculum Team. Before Udacity, David was a research engineer on the autonomous vehicle team at Ford. He has an MBA from Stanford, and a BSE in Computer Science from Princeton.</p>
                     </div>
                 </div>
-                <div class="flex flex-col px-8 py-20 w-1/4 max-lg:w-full mt-10 bg-green-200 text-black rounded-br-[70px]">
+                <div class="flex flex-col px-8 py-20 w-1/4 max-lg:w-full max-lg:mt-10 bg-green-200 text-black rounded-br-[70px]">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-12 fill-green-700" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32C93.5 32 46.3 45.3 18.1 56.1C6.8 60.5 0 71.7 0 83.8V454.1c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6c11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6c-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg>
                     </div>
@@ -295,7 +295,7 @@
                         <p class="mt-6 text-sm">Stephen is a Content Developer at Udacity and has worked on the C++ and Self-Driving Car Engineer Nanodegree programs. He started teaching and coding while completing a Ph.D. in mathematics, and has been passionate about engineering education ever since.</p>
                     </div>
                 </div>
-                <div class="flex flex-col px-8 py-20 w-1/4 max-lg:w-full mt-10 bg-green-200 text-black rounded-tl-[70px]">
+                <div class="flex flex-col px-8 py-20 w-1/4 max-lg:w-full max-lg:mt-10 bg-green-200 text-black rounded-tl-[70px]">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-12 fill-green-700" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32C93.5 32 46.3 45.3 18.1 56.1C6.8 60.5 0 71.7 0 83.8V454.1c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6c11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6c-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg>
                     </div>
@@ -309,16 +309,24 @@
     </section>
 
     <!-- Section 7 -->
-    <div class="flex flex-row justify-center">
-        <TabView>
-            <TabPanel header="Experienced Project Reviewer">
-                <!-- Detail Element Here -->
-            </TabPanel>
-            <TabPanel header="Technical Mental Support">
-                <!-- Detail Element Here -->
-            </TabPanel>
-        </TabView>
-    </div>
+    <section class="w-full flex justify-center mt-32">
+        <div class="w-11/12 flex flex-col items-center">
+            <div class="flex flex-col items-center">
+                <h1 class="text-5xl font-medium">Succeed with personalized services.</h1>
+                <p class="font-thin mt-4">We provide services customized for your needs at every step of your learning journey to ensure your success.</p>
+            </div>
+            <div class="flex flex-row justify-center mt-10">
+                <TabView>
+                    <TabPanel header="Experienced Project Reviewer">
+                        <!-- Detail Element Here -->
+                    </TabPanel>
+                    <TabPanel header="Technical Mental Support">
+                        <!-- Detail Element Here -->
+                    </TabPanel>
+                </TabView>
+            </div>
+        </div>
+    </section>
 
     <!-- Section 11 -->
     <section class="relative bg-gray-900 text-center py-24">
