@@ -270,6 +270,23 @@
         </div>
     </section>
 
+    <!-- Section 11 -->
+    <section class="relative bg-gray-900 text-center py-24">
+        <div class="flex flex-col justify-center">
+            <h1 class="text-white text-3xl font-normal pb-16">Became an Android Developer</h1>
+        
+            <div class="flex flex-col sm:flex-row justify-center items-center">
+                <a href="#" class="flex flex-row py-3 px-10 mb-5 justify-between sm:mr-5 sm:mb-0 items-center w-fit text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4">
+                    Enroll Now
+                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+                <a href="#" class="flex w-fit justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-gray-300 focus:ring-4 focus:ring-gray-100">
+                    Download Syllabus
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- Section 12 -->
     <section class="flex flex-col justify-start pt-16 mx-5">
         <!-- Logo dulu -->
