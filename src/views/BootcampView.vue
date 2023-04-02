@@ -212,65 +212,57 @@
             <div>
                 <h1 class="text-5xl font-medium">Program offerings</h1>
             </div>
-            <div class="flex flex-row items-center mt-20">
-                <div class="w-full flex justify-center flex-col">
+            <div class="flex flex-row items-center mt-20 h-[580px] max-md:flex-col max-md:h-full">
+                <div class="w-full flex h-full flex-col">
                     <img src="/public/aej-logo.svg" class="w-11/12 max-md:w-full max-md:h-[300px] bg-green-700  rounded-bl-[100px] h-[280px]" alt="AEJ Logo"/>
-                    <div class="flex flex-col pt-8">
+                    <div class="flex flex-col mt-8">
                         <div>
                             <h1 class="text-2xl font-semibold">Class Content</h1>
                         </div>
                         <div class="flex flex-row pt-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 fill-green-700" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                                <p class="text-lg mt-2">Technical mentor support</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 fill-green-700 mr-5" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                                <p class="text-lg mt-2">Real-world projects</p>
                             </div>
                             <div class="flex flex-row pt-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 fill-green-700" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                                <p class="text-lg mt-2">Technical mentor support</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 fill-green-700 mr-5" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                                <p class="text-lg mt-2">Project reviews</p>
                             </div>
                             <div class="flex flex-row pt-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 fill-green-700" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                                <p class="text-lg mt-2">Technical mentor support</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 fill-green-700 mr-5" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                                <p class="text-lg mt-2">Project feedback from experienced reviewers</p>
                             </div>
                     </div>
                 </div>
                 
-                <div class="w-full flex justify-center flex-col">
+                <div class="w-full flex h-full flex-col border-b-2 border-green-200 max-md:mt-10">
                     <img src="/public/aej-logo.svg" class="w-11/12 max-md:w-full max-md:h-[300px] bg-green-700  rounded-tr-[100px] h-[280px]" alt="AEJ Logo"/>
                     <div class="flex flex-col pt-8">
                         <div>
-                            <h1 class="text-2xl font-semibold">Class Content</h1>
+                            <h1 class="text-2xl font-semibold">Student services</h1>
                         </div>
                         <div class="flex flex-row pt-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 fill-green-700" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 fill-green-700 mr-5" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
                             <p class="text-lg mt-2">Technical mentor support</p>
                         </div>
                         <div class="flex flex-row pt-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 fill-green-700" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                            <p class="text-lg mt-2">Technical mentor support</p>
-                        </div>
-                        <div class="flex flex-row pt-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 fill-green-700" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                            <p class="text-lg mt-2">Technical mentor support</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 fill-green-700 mr-5" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                            <p class="text-lg mt-2">Student community</p>
                         </div>
                     </div>
                 </div>
-                <div class="w-full flex justify-center flex-col">
+                <div class="w-full flex h-full flex-col max-md:mt-10">
                     <img src="/public/aej-logo.svg" class="w-11/12 max-md:w-full max-md:h-[300px] bg-green-700  rounded-tr-[100px] h-[280px]" alt="AEJ Logo"/>
                     <div class="flex flex-col pt-8">
                         <div>
-                            <h1 class="text-2xl font-semibold">Class Content</h1>
+                            <h1 class="text-2xl font-semibold">Career services</h1>
                         </div>
                         <div class="flex flex-row pt-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 fill-green-700" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                            <p class="text-lg">Technical mentor support</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 fill-green-700 mr-5" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                            <p class="text-lg">Github review</p>
                         </div>
                         <div class="flex flex-row pt-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 fill-green-700" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                            <p class="text-lg mt-2">Technical mentor support</p>
-                        </div>
-                        <div class="flex flex-row pt-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 fill-green-700" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                            <p class="text-lg mt-2">Technical mentor support</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 fill-green-700 mr-5" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                            <p class="text-lg mt-2">Linkedin profile optimization</p>
                         </div>
                     </div>
                 </div>
