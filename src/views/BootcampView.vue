@@ -269,6 +269,99 @@
             </div>
         </div>
     </section>
+
+    <!-- Section 12 -->
+    <section class="flex flex-col justify-start pt-16 mx-5">
+        <!-- Logo dulu -->
+        <a href="#" class="flex items-center bg-green-600 px-1 lg:px-2 py-1.5 lg:py-2.5 rounded w-fit mb-8">
+          <img src="/public/aej-logo.svg" class="h-7" alt="AEJ Logo" />
+        </a>
+        <div>
+            <div class="hidden sm:grid grid-cols-5 gap-5 grid-flow-row place-content-around justify-center">
+                <div class="mx-4 mt-3">
+                    <h1 class="font-semibold">Featured Programs</h1>
+                    <ul>
+                        <li class="text-sm font-light ml-3">BA</li>
+                        <li class="text-sm font-light ml-3">SQL</li>
+                        <li class="text-sm font-light ml-3">BA</li>
+                        <li class="text-sm font-light ml-3">SQL</li>
+                        <li class="text-sm font-light ml-3">BA</li>
+                        <li class="text-sm font-light ml-3">SQL</li>
+                        <li class="text-sm font-light ml-3">BA</li>
+                        <li class="text-sm font-light ml-3">SQL</li>
+                        <li class="text-sm font-light ml-3">BA</li>
+                        <li class="text-sm font-light ml-3">SQL</li>
+                        <li class="text-sm font-light ml-3">BA</li>
+                        <li class="text-sm font-light ml-3">SQL</li>
+                    </ul>
+                </div>
+                <div class="mx-4 mt-3">
+                    <h1 class="font-semibold">Featured Programs</h1>
+                    <ul>
+                        <li class="text-sm font-light ml-3">BA</li>
+                        <li class="text-sm font-light ml-3">SQL</li>
+                    </ul>
+                </div>
+                <div class="mx-4 mt-3">
+                    <h1 class="font-semibold">Featured Programs</h1>
+                    <ul>
+                        <li class="text-sm font-light ml-3">BA</li>
+                        <li class="text-sm font-light ml-3">SQL</li>
+                    </ul>
+                </div>
+                <div class="mx-4 mt-3">
+                    <h1 class="font-semibold">Featured Programs</h1>
+                    <ul>
+                        <li class="text-sm font-light ml-3">BA</li>
+                        <li class="text-sm font-light ml-3">SQL</li>
+                    </ul>
+                </div>
+                <div class="mx-4 mt-3">
+                    <h1 class="font-semibold">Featured Programs</h1>
+                    <ul>
+                        <li class="text-sm font-light ml-3">BA</li>
+                        <li class="text-sm font-light ml-3">SQL</li>
+                    </ul>
+                </div>
+                <div class="mx-4 mt-3">
+                    <h1 class="font-semibold">Featured Programs</h1>
+                    <ul>
+                        <li class="text-sm font-light ml-3">BA</li>
+                        <li class="text-sm font-light ml-3">SQL</li>
+                    </ul>
+                </div>
+                <div class="mx-4 mt-3">
+                    <h1 class="font-semibold">Featured Programs</h1>
+                    <ul>
+                        <li class="text-sm font-light ml-3">BA</li>
+                        <li class="text-sm font-light ml-3">SQL</li>
+                    </ul>
+                </div>
+                <div class="mx-4 mt-3">
+                    <h1 class="font-semibold">Featured Programs</h1>
+                    <ul>
+                        <li class="text-sm font-light ml-3">BA</li>
+                        <li class="text-sm font-light ml-3">SQL</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <Accordion :activeIndex="0" class="block sm:hidden">
+                <AccordionTab header="Featured Program">
+                    <ul>
+                        <li class="text-sm font-light ml-3">BA</li>
+                        <li class="text-sm font-light ml-3">SQL</li>
+                    </ul>
+                </AccordionTab>
+                <AccordionTab header="Only at AEJ">
+                    <ul>
+                        <li class="text-sm font-light">Lorem</li>
+                        <li class="text-sm font-light">Lorem</li>
+                    </ul>
+                </AccordionTab>
+            </Accordion>
+        </div>
+    </section>
 </template>
 
 <script setup>
