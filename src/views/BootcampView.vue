@@ -84,59 +84,55 @@
     </section>
     
     <!-- Section 4 -->
-    <section class="w-full py-16 sm:px-5 flex flex-col bg-gray-900">
-        <div class="w-full px-3 pb-5">
-            <h5 class="text-3xl font-semibold text-white text-left">All our programs include:</h5>
-
-        </div>
-        <div class="flex flex-col md:flex-row px-3 justify-items-start">
-            <div class="text-white flex flex-row md:flex-col pb-10 mx-4">
-                <span class="mr-7 mb-5">
-                    <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
-                </span>
-                <div class="flex flex-col">
-                    <span class="font-bold text-lg pb-5">Real-world projects from industry experts</span>
-                    <span class="text-sm mt-3">
-                        With real-world projects and immersive content built in partnership with top-tier companies, you’ll master the tech skills companies want. 
-                    </span>
+        <section class="bg-gray-900 w-full flex justify-center">
+            <div class="w-11/12 flex flex-col my-32">
+                <div class="w-full ml-[30px] max-sm:ml-0">
+                    <h1 class="text-white text-4xl">All our programs include:</h1>
+                </div>
+                <div class="w-full max-sm:flex-col flex flex-row mt-10">
+                    <div class="flex flex-row w-1/2 max-sm:w-full max-lg:flex-col">
+                        <div class="flex flex-col p-8 text-white">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-10 fill-green-700" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M280 24c0-13.3-10.7-24-24-24s-24 10.7-24 24v80c0 13.3 10.7 24 24 24s24-10.7 24-24V24zM185.8 224H326.2c6.8 0 12.8 4.3 15.1 10.6L360.3 288H151.7l19.1-53.4c2.3-6.4 8.3-10.6 15.1-10.6zm-75.3-10.9L82.2 292.4C62.1 300.9 48 320.8 48 344v40 64 32c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V448H384v32c0 17.7 14.3 32 32 32h16c17.7 0 32-14.3 32-32V448 384 344c0-23.2-14.1-43.1-34.2-51.6l-28.3-79.3C390.1 181.3 360 160 326.2 160H185.8c-33.8 0-64 21.3-75.3 53.1zM128 344a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm232 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM39 39c-9.4 9.4-9.4 24.6 0 33.9l48 48c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9L73 39c-9.4-9.4-24.6-9.4-33.9 0zm400 0L391 87c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l48-48c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0z"/></svg>
+                            </div>
+                            <div>
+                                <h2 class="font-semibold text-xl mt-6">Real-world projects from industry experts</h2>
+                                <p class="mt-5">With real-world projects and immersive content built in partnership with top-tier companies, you’ll master the tech skills companies want.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col p-8 text-white">
+                            <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-12 fill-green-700" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M128 32C92.7 32 64 60.7 64 96V352h64V96H512V352h64V96c0-35.3-28.7-64-64-64H128zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480H563.2c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2H19.2z"/></svg>
+                                </div>
+                                <div>
+                                    <h2 class="font-semibold text-xl mt-6">Technical mentor support</h2>
+                                    <p class="mt-5">Our knowledgeable mentors guide your learning and are focused on answering your questions, motivating you, and keeping you on track.</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row w-1/2 max-lg:flex-col max-sm:w-full">
+                        <div class="flex flex-col p-8 text-white">
+                            <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-12 fill-green-700" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M323.4 85.2l-96.8 78.4c-16.1 13-19.2 36.4-7 53.1c12.9 17.8 38 21.3 55.3 7.8l99.3-77.2c7-5.4 17-4.2 22.5 2.8s4.2 17-2.8 22.5l-20.9 16.2L512 316.8V128h-.7l-3.9-2.5L434.8 79c-15.3-9.8-33.2-15-51.4-15c-21.8 0-43 7.5-60 21.2zm22.8 124.4l-51.7 40.2C263 274.4 217.3 268 193.7 235.6c-22.2-30.5-16.6-73.1 12.7-96.8l83.2-67.3c-11.6-4.9-24.1-7.4-36.8-7.4C234 64 215.7 69.6 200 80l-72 48V352h28.2l91.4 83.4c19.6 17.9 49.9 16.5 67.8-3.1c5.5-6.1 9.2-13.2 11.1-20.6l17 15.6c19.5 17.9 49.9 16.6 67.8-2.9c4.5-4.9 7.8-10.6 9.9-16.5c19.4 13 45.8 10.3 62.1-7.5c17.9-19.5 16.6-49.9-2.9-67.8l-134.2-123zM16 128c-8.8 0-16 7.2-16 16V352c0 17.7 14.3 32 32 32H64c17.7 0 32-14.3 32-32V128H16zM48 320a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM544 128V352c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V144c0-8.8-7.2-16-16-16H544zm32 208a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z"/></svg>
+                                </div>
+                                <div>
+                                    <h2 class="font-semibold text-xl mt-[26px]">Career services</h2>
+                                    <p class="mt-5">You’ll have access to Github portfolio review and LinkedIn profile optimization to help you advance your career and land a high-paying role.</p>
+                                </div>
+                        </div>
+                        <div class="flex flex-col p-8 text-white">
+                            <div>
+                                   <svg xmlns="http://www.w3.org/2000/svg" class="w-12 fill-green-700"  viewBox="0 0 640 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M128 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm32 97.3c28.3-12.3 48-40.5 48-73.3c0-44.2-35.8-80-80-80S48 51.8 48 96c0 32.8 19.7 61 48 73.3V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H288v54.7c-28.3 12.3-48 40.5-48 73.3c0 44.2 35.8 80 80 80s80-35.8 80-80c0-32.8-19.7-61-48-73.3V288H608c17.7 0 32-14.3 32-32s-14.3-32-32-32H544V169.3c28.3-12.3 48-40.5 48-73.3c0-44.2-35.8-80-80-80s-80 35.8-80 80c0 32.8 19.7 61 48 73.3V224H160V169.3zM488 96a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM320 392a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg>
+                                </div>
+                                <div>
+                                    <h2 class="font-semibold text-xl mt-6">Flexible learning program</h2>
+                                    <p class="mt-5">Tailor a learning plan that fits your busy life. Learn at your own pace and reach your personal goals on the schedule that works best for you.</p>
+                                </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="text-white flex flex-row md:flex-col pb-10 mx-4">
-                <span class="mr-7 mb-5">
-                    <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
-                </span>
-                <div class="flex flex-col">
-                    <span class="font-bold text-lg pb-5">Career services</span>
-                    <span class="text-sm mt-3">
-                        You’ll have access to Github portfolio review and LinkedIn profile optimization to help you advance your career and land a high-paying role.
-                    </span>
-                </div>
-            </div>
-            <div class="text-white flex flex-row md:flex-col pb-10 mx-4">
-                <span class="mr-7 mb-5">
-                    <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
-                </span>
-                <div class="flex flex-col">
-                    <span class="font-bold text-lg pb-5">Career services</span>
-                    <span class="text-sm mt-3">
-                        You’ll have access to Github portfolio review and LinkedIn profile optimization to help you advance your career and land a high-paying role.
-                    </span>
-                </div>
-            </div>
-            <div class="text-white flex flex-row md:flex-col pb-10 mx-4">
-                <div class="mr-7 mb-5">
-                    <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
-                </div>
-                <div class="flex flex-col">
-                    <span class="font-bold text-lg pb-5">Flexible learning program</span>
-                    <span class="text-sm mt-3">
-                        Tailor a learning plan that fits your busy life. Learn at your own pace and reach your personal goals on the schedule that works best for you.    
-                    </span>
-                </div>
-            </div>
-           
-        </div>
-    </section>
+        </section>
 </template>
 
 <script setup>
