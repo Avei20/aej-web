@@ -325,33 +325,36 @@
         <h1 class="text-3xl ">Program details</h1>
         <div class="mt-7">
             <span class="text-sm mt-7">Program overview: Why should I take this program? </span>
-            <div class="flex flex-col mt-4 mb-10">
+            <div class="flex flex-col mt-5 mb-5">
                 <h1 class="text-xl font-semibold">Why should i enroll? </h1>
                 <span class="text-sm mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis laudantium in ab vel iusto debitis ducimus repudiandae eligendi tenetur cum quasi rem facilis saepe unde asperiores provident libero, quos quibusdam.</span>
             </div>
-            <div class="flex flex-col mt-4 mb-10">
+            <Divider />
+            <div class="flex flex-col mb-5 mt-5">
                 <h1 class="text-xl font-semibold">Why should i enroll? </h1>
                 <span class="text-sm mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis laudantium in ab vel iusto debitis ducimus repudiandae eligendi tenetur cum quasi rem facilis saepe unde asperiores provident libero, quos quibusdam.</span>
             </div>
         </div>
         <div class="mt-7">
-            <span class="text-sm mt-7">Enrollment and admission </span>
-            <div class="flex flex-col mt-4 mb-10">
+            <span class="text-sm mt-7">Enrollment and admission</span>
+            <div class="flex flex-col mt-5 mb-5">
                 <h1 class="text-xl font-semibold">Why should i enroll? </h1>
                 <span class="text-sm mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis laudantium in ab vel iusto debitis ducimus repudiandae eligendi tenetur cum quasi rem facilis saepe unde asperiores provident libero, quos quibusdam.</span>
             </div>
-            <div class="flex flex-col mt-4 mb-10">
+            <Divider />
+            <div class="flex flex-col mb-5 mt-5">
                 <h1 class="text-xl font-semibold">Why should i enroll? </h1>
                 <span class="text-sm mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis laudantium in ab vel iusto debitis ducimus repudiandae eligendi tenetur cum quasi rem facilis saepe unde asperiores provident libero, quos quibusdam.</span>
             </div>
         </div>
         <div class="mt-7">
             <span class="text-sm mt-7">Tuition and term of program</span>
-            <div class="flex flex-col mt-4 mb-10">
+            <div class="flex flex-col mt-5 mb-5">
                 <h1 class="text-xl font-semibold">Why should i enroll? </h1>
                 <span class="text-sm mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis laudantium in ab vel iusto debitis ducimus repudiandae eligendi tenetur cum quasi rem facilis saepe unde asperiores provident libero, quos quibusdam.</span>
             </div>
-            <div class="flex flex-col mt-4 mb-10">
+            <Divider />
+            <div class="flex flex-col mb-5 mt-5">
                 <h1 class="text-xl font-semibold">Why should i enroll? </h1>
                 <span class="text-sm mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis laudantium in ab vel iusto debitis ducimus repudiandae eligendi tenetur cum quasi rem facilis saepe unde asperiores provident libero, quos quibusdam.</span>
             </div>
