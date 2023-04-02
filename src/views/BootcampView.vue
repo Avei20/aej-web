@@ -308,6 +308,18 @@
         </div>
     </section>
 
+    <!-- Section 7 -->
+    <div class="flex flex-row justify-center">
+        <TabView>
+            <TabPanel header="Experienced Project Reviewer">
+                <!-- Detail Element Here -->
+            </TabPanel>
+            <TabPanel header="Technical Mental Support">
+                <!-- Detail Element Here -->
+            </TabPanel>
+        </TabView>
+    </div>
+
     <!-- Section 11 -->
     <section class="relative bg-gray-900 text-center py-24">
         <div class="flex flex-col justify-center">
