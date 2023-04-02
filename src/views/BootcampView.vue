@@ -91,7 +91,7 @@
                 <p class="mt-2">To optimize your chances of success in the Android Nanodegree program, we recommend intermediate knowledge of any programming language.</p>
             </div>
             <div class="flex flex-row mt-16">
-                <div class="flex flex-col w-7/12">     
+                <div class="flex flex-col w-7/12 max-lg:w-full">     
                     <ol class="relative text-gray-500 border-l border-gray-200 dark:border-gray-700 dark:text-gray-400">                  
                         <li class="mb-10 ml-6 border-b-2 pb-8">            
                             <span class="absolute flex items-center justify-center w-3 h-3 bg-green-200 rounded-full -left-4 ring-4 ring-white dark:ring-gray-900 dark:bg-green-900">
@@ -130,7 +130,7 @@
                         </li>
                     </ol>
                 </div>
-                <div class="flex flex-col w-5/12 items-end">
+                <div class="flex flex-col w-5/12 items-end max-lg:hidden">
                     <div class="flex flex-col w-8/12">
                         <div class="flex flex-col p-12 bg-green-200 text-black rounded-tl-[70px]">
                             <div>
