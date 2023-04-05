@@ -92,37 +92,37 @@
             </div>
             <div class="flex flex-row mt-16">
                 <div class="flex flex-col w-7/12 max-lg:w-full">     
-                    <ol class="relative text-gray-500 border-l border-gray-200 dark:border-gray-700 dark:text-gray-400">                  
+                    <ol class="relative text-gray-500 border-l border-gray-200 dark:border-gray-900 dark:text-gray-400">                  
                         <li class="mb-10 ml-6 border-b-2 pb-8">            
-                            <span class="absolute flex items-center justify-center w-3 h-3 bg-green-200 rounded-full -left-4 ring-4 ring-white dark:ring-gray-900 dark:bg-green-900">
+                            <span class="absolute flex items-center justify-center w-3 h-3 bg-green-200 rounded-full -left-[6px] ring-4 ring-white dark:ring-gray-900 dark:bg-green-900">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/></svg>
                             </span>
                             <h1 class="font-semibold text-xl text-black leading-tight">Dasar Pengembangan Aplikasi Android</h1>
                             <p class="text-sm mt-4">Memahami konsep dasar mengembangkan aplikasi Android dengan menggunakan Activity, Intent, Fragment, View & View Group, dan Style & Theme.</p>
                         </li>
                         <li class="mb-10 ml-6 border-b-2 pb-8">
-                            <span class="absolute flex items-center justify-center w-3 h-3 bg-green-200 rounded-full -left-4 ring-4 ring-white dark:ring-gray-900 dark:bg-green-900">
+                            <span class="absolute flex items-center justify-center w-3 h-3 bg-green-200 rounded-full -left-[6px] ring-4 ring-white dark:ring-gray-900 dark:bg-green-900">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/></svg>
                                 </span>
                             <h3 class="font-semibold text-xl text-black leading-tight">Background Thread dan Networking</h3>
                             <p class="text-sm">Mendalami cara mengeksekusi proses secara asynchronous di background thread supaya tidak terjadi freeze serta memahami cara mengambil data dari Web API yang berformat JSON dan mem-parsing-nya.</p>
                         </li>
                         <li class="mb-10 ml-6 border-b-2 pb-8">
-                            <span class="absolute flex items-center justify-center w-3 h-3 bg-green-200 rounded-full -left-4 ring-4 ring-white dark:ring-gray-900 dark:bg-green-900">
+                            <span class="absolute flex items-center justify-center w-3 h-3 bg-green-200 rounded-full -left-[6px] ring-4 ring-white dark:ring-gray-900 dark:bg-green-900">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/></svg>
                                 </span>
                             <h3 class="font-semibold text-xl text-black leading-tight">Android Architecture Component</h3>
                             <p class="text-sm">Mengetahui architecture pattern yang direkomendasikan Google untuk membuat kode yang mudah dibaca dan dipelihara, yakni dengan menggunakan ViewModel dan LiveData.</p>
                         </li>
                         <li class="ml-6 mb-6 border-b-2 pb-8">
-                            <span class="absolute flex items-center justify-center w-3 h-3 bg-green-200 rounded-full -left-4 ring-4 ring-white dark:ring-gray-900 dark:bg-green-900">
+                            <span class="absolute flex items-center justify-center w-3 h-3 bg-green-200 rounded-full -left-[6px] ring-4 ring-white dark:ring-gray-900 dark:bg-green-900">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/></svg>
                                 </span>
                             <h3 class="font-semibold text-xl text-black leading-tight">Testing</h3>
                             <p class="text-sm">Memahami cara untuk menguji aplikasi secara otomatis dengan melakukan Unit Testing dan Instrumentation Testing.</p>
                         </li>
                         <li class="ml-6 border-b-2 pb-8">
-                            <span class="absolute flex items-center justify-center w-3 h-3 bg-green-200 rounded-full -left-4 ring-4 ring-white dark:ring-gray-900 dark:bg-green-900">
+                            <span class="absolute flex items-center justify-center w-3 h-3 bg-green-200 rounded-full -left-[6px] ring-4 ring-white dark:ring-gray-900 dark:bg-green-900">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/></svg>
                                 </span>
                             <h3 class="font-semibold text-xl text-black leading-tight">Capstone Project</h3>
