@@ -21,6 +21,11 @@ const router = createRouter({
       path: '/bootcamp',
       name: 'bootcamp',
       component: () => import('@/views/BootcampView.vue')
+    },
+    {
+      path: '/catalog',
+      name: 'catalog',
+      component: () => import('@/views/CatalogView.vue')
     }
   ]
 })
