@@ -4,13 +4,13 @@
         <Navbar />
     </section>
 
-    <section class="relative bg-gray-900 w-full rounded-bl-[95px]">
-        <div class="flex flex-row w-full items-center">
-            <div class="w-1/2 flex flex-col text-white p-16">
+    <section class="relative bg-gray-900 w-full rounded-bl-[95px] max-sm:h-96 max-sm:rounded-none">
+        <div class="flex flex-row w-full items-center max-sm:flex-col">
+            <div class="w-1/2 flex flex-col text-white p-16 max-sm:w-full">
                 <h1 class="text-4xl font-medium">Individual Learners Catalog</h1>
                 <p>Transform your career with Nanodegree programs starting at <span class="font-bold">$399/mo.</span></p>
             </div>
-            <div class="flex-1 w-1/ mr-20">
+            <div class="flex-1 w-1/ mr-20 max-sm:w-11/12 max-sm:mr-0 ">
               <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Search</label>
               <div class="relative">
                 <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
@@ -33,7 +33,7 @@
                 <p class="font-medium">Filter by:</p>
             </div>
             <div class="mt-4">
-                <ul class="grid gap-2 grid-cols-6">
+                <ul class="grid gap-2 grid-cols-6 max-sm:grid-cols-1">
                     <MultiSelect v-model="selectedCities" :options="topics" filter optionLabel="name" placeholder="Topic" :maxSelectedLabels="3" class="w-full md:w-20rem" />
                     <MultiSelect v-model="selectedCities" :options="cities" filter optionLabel="name" placeholder="Field" :maxSelectedLabels="3" class="w-full md:w-20rem" />
                     <MultiSelect v-model="selectedCities" :options="cities" filter optionLabel="name" placeholder="Skill Level" :maxSelectedLabels="3" class="w-full md:w-20rem" />
@@ -46,17 +46,17 @@
     </section>
 
     <section class="w-full mt-10 flex justify-center">
-        <div class="w-11/12 grid gap-5 grid-cols-2">
-            <div class="flex flex-row drop-shadow-2xl bg-gray-50" v-for="catalogue in catalogueList" :key="catalogue.id">
-                <div class="border-r-2 p-3 w-60">
+        <div class="w-11/12 grid gap-5 grid-cols-2 max-lg:grid-cols-1">
+            <div class="flex flex-row max-sm:flex-col drop-shadow-2xl bg-gray-50" v-for="catalogue in catalogueList" :key="catalogue.id">
+                <div class="border-r-2 p-3 w-60 max-sm:w-full">
                     <div class="w-full">
-                        <img src="/public/aej-logo.svg" class="w-36 max-md:w-full max-md:h-[300px] bg-green-700  rounded-bl-[55px] h-[130px]" alt="AEJ Logo"/>
+                        <img src="/public/aej-logo.svg" class="w-36 max-md:w-full max-md:h-[120px] bg-green-700  rounded-bl-[55px] h-[130px]" alt="AEJ Logo"/>
                     </div>
-                    <div class="flex flex-col sm:flex-col justify-center items-center mt-3">
-                        <a href="#" class="flex flex-row py-3 px-5 mb-2 justify-between  items-center w-fit text-sm font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4">
+                    <div class="flex flex-col sm:flex-col justify-center items-center mt-3 max-sm:flex-row">
+                        <a href="#" class="flex flex-row py-3 px-5 mb-2 max-sm:mb-0 max-sm:mr-2 justify-between  items-center w-fit text-sm font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4">
                             Program Details
                         </a>
-                        <a href="#" class="flex w-fit justify-center items-center py-3 px-2 text-sm font-medium text-center text-green-700 rounded-lg border border-green-700 focus:ring-4 focus:ring-gray-100">
+                        <a href="#" class="flex w-fit justify-center  items-center py-3 px-2 text-sm font-medium text-center text-green-700 rounded-lg border border-green-700 focus:ring-4 focus:ring-gray-100">
                             Download Syllabus
                         </a>
                     </div>
@@ -103,15 +103,16 @@
                     </div>
                 </div>
             </div>
-
-            
         </div>
     </section>
+
+    <NavFooter />
     
 </template>
 
 <script setup>
 
+import NavFooter from "../components/NavFooter.vue";
 import Navbar from "../components/Navbar.vue";
 import { ref } from "vue";
 
