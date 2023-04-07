@@ -11,7 +11,7 @@ import ConfirmationService from 'primevue/confirmationservice';
 import ToastService from 'primevue/toastservice';
 import 'primeicons/primeicons.css';
 import 'primevue/resources/primevue.min.css'
-import 'primevue/resources/themes/tailwind-light/theme.css'
+import 'primevue/resources/themes/saga-green/theme.css'
 // import { primeVueConfig } from './utils/primeVue'
 
 import AutoComplete from 'primevue/autocomplete';
